@@ -1,14 +1,18 @@
 backend:
   name: git-gateway
-  branch: main # أو اسم الفرع الذي تستخدمينه
-media_folder: "static/uploads" # المجلد الذي ستخزن فيه الصور والملفات
-public_folder: "/uploads" # المسار للوصول للصور
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "content/blog" # المجلد الذي يحتوي على المقالات
-    create: true # السماح بإنشاء مقالات جديدة
+  - name: "products"
+    label: "Products"
+    folder: "src/products"
+    create: true
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "text" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Price", name: "price", widget: "number" }
+      - { label: "Image", name: "image", widget: "image" }
