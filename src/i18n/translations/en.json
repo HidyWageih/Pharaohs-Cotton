@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "categories": {
+    "valleyOfKings": {
+      "title": "Valley of Kings Collection",
+      "description": "Experience the majesty of ancient Egyptian royalty with our premium bedroom collection"
+    },
+    "pyramidThreads": {
+      "title": "Pyramid Threads",
+      "description": "Timeless designs woven with the finest Egyptian cotton"
+    },
+    "templeSimplicity": {
+      "title": "Temple of Simplicity",
+      "description": "Minimalist elegance inspired by ancient Egyptian architecture"
+    },
+    "goldenTreasures": {
+      "title": "Golden Treasures",
+      "description": "Our most exclusive collection, featuring ornate details and premium materials"
+    }
+  }
+}

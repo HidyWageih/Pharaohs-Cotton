@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { fill: #D4AF37; }
+    .nefertiti { fill: none; stroke: #D4AF37; stroke-width: 2; }
+  </style>
+  <g transform="translate(100, 50)">
+    <!-- Nefertiti's head -->
+    <path class="nefertiti" d="
+      M300 100
+      C300 100 290 80 290 70
+      C290 60 300 40 310 40
+      C320 40 330 60 330 70
+      C330 80 320 100 310 100
+      
+      M290 110
+      C290 110 280 130 280 140
+      C280 150 285 160 310 160
+      C335 160 340 150 340 140
+      C340 130 330 110 330 110
+      
+      M270 90
+      C270 90 250 100 250 110
+      C250 120 260 130 270 130
+      
+      M350 90
+      C350 90 370 100 370 110
+      C370 120 360 130 350 130
+      
+      M310 40
+      L310 120
+    " stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Logo text -->
+    <text x="300" y="250" text-anchor="middle" class="logo-text" style="font-family: sans-serif; font-size: 48px; font-weight: bold;">
+      PHARAOH'S COTTON
+    </text>
+    <text x="300" y="300" text-anchor="middle" class="logo-text" style="font-family: sans-serif; font-size: 24px;">
+      LUXURIOUS AND COMFORTABLE
+    </text>
+  </g>
+</svg>

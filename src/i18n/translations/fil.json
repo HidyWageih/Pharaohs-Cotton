@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Tungkol sa Amin",
+    "contact": "Makipag-ugnayan"
+  },
+  "categories": {
+    "valleyOfKings": {
+      "title": "Valley of Kings",
+      "description": "Maranasan ang kamaharlikaan ng sinaunang Egyptian royalty"
+    },
+    "pyramidThreads": {
+      "title": "Pyramid Threads",
+      "description": "Walang-hanggang disenyo na gawa sa pinakamahusay na Egyptian cotton"
+    },
+    "templeSimplicity": {
+      "title": "Temple of Simplicity",
+      "description": "Minimalist na elegance na inspirado ng sinaunang Egyptian architecture"
+    },
+    "goldenTreasures": {
+      "title": "Golden Treasures",
+      "description": "Ang aming pinaka-eksklusibong koleksyon, may mga detalyadong palamuti at premium na materyales"
+    }
+  },
+  "footer": {
+    "contact": "Makipag-ugnayan",
+    "rights": "Nakalaan ang Lahat ng Karapatan",
+    "address": "Address",
+    "phone": "Telepono",
+    "email": "Email"
+  }
+}
