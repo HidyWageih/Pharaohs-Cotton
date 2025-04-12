@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pharaoh's Cotton - Luxurious Egyptian Cotton Furniture</title>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link to Netlify CMS stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/netlify-cms@2.15.0/dist/netlify-cms.css" />
   </head>
   <body>
+    <!-- Admin panel setup for Netlify CMS -->
     <div id="root"></div>
+    
+    <!-- Initialize the CMS JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/netlify-cms@2.15.0/dist/netlify-cms.js"></script>
+
+    <script>
+      CMS.init();
+    </script>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
